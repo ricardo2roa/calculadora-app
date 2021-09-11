@@ -1,0 +1,16 @@
+.titulo{
+  margin: 30px 80px;
+}
+.container{
+  width: 45%;
+  position: relative;
+  right: 24%;
+}
+.btn{
+  margin-top: 10px;
+}
+
+.scope{
+  border: 1px solid transparent;
+  outline: none;
+}
