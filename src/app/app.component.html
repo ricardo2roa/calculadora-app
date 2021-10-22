@@ -1,6 +1,7 @@
-<h1 class="titulo">Aplicación de Calculadora</h1>
-<app-formulario (sumaTotal)="sumar($event)"></app-formulario>
-  <div class="row">
-    <span class='mostrar'>El resultado es: <input class='scope' [(ngModel)]='suma'/> </span>
-  </div>
+<div class="container">
+  <h1 class="titulo">Aplicación de Calculadora</h1>
+  <app-formulario (sumaTotal)="suma($event)"></app-formulario>
+  <app-display [resultado] = "valor"></app-display>
+</div>
+
 

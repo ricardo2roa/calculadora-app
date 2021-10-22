@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculadora-app';
-
+  valor:number=0;
+  suma(suma:number){
+    this.valor = suma
+    console.log(` Valor suma: ${suma}`)
+  }
 }
